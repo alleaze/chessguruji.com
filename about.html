@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Chess website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="cheed.mp4" type="video/mp4">
+      </video>
+
+    </div>
+
+    <section class="sub-header">
+        <nav>
+            <img class="logoimg" src="logo2.png"><h2 class="logotext">CHESSGURU</h2>
+            <div class="nav-link" id="navLink">
+                <ion-icon name="close-outline" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">COURSE</a></li>
+                    <li><a href="course.html">ABOUT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
+        </nav>
+            <h1>About Us </h1>
+    </section>
+
+    
+      
+
+    <!------------ about us content ---------->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world largest players</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda amet quod modi error cupiditate, fugit impedit quos aut, adipisci nostrum facere quia accusamus reprehenderit, et incidunt at ipsum! Accusamus, sequi.</p>
+                <a href="" class="hero-btn primary-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+
+<!--------- Footer--------------->
+<br>
+<br>
+<br>
+<section>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <footer class="footer">
+         <div class="container">
+             <div class="row">
+                 <div class="footer-col">
+                     <h4>More Options</h4>
+                     <ul>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">privacy policy</a></li>
+                        <li><a href="#"></a></li>
+                     </ul>
+                 </div>
+                 <div class="footer-col">
+                     <h4>follow us</h4>
+                     <div class="social-links">
+                         <a href="#"><i class="fab fa-facebook-f"></i></a>
+                         <a href="#"><i class="fab fa-twitter"></i></a>
+                         <a href="#"><i class="fab fa-instagram"></i></a>
+                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                     </div>
+                     <br>
+                     <hr>
+                     <p class="Copyright">Copyright 2022 - @ Powered by Alleaze</p>
+                 </div>
+             </div>
+         </div>
+    </footer>
+</section>
+  
+
+
+
+<!---------JavaScript for Toggle Menu------->
+<script>
+
+var navLink = document.getElementById("navLink");
+function showMenu(){
+    navLink.style.right = "0";
+}
+
+function hideMenu(){
+    navLink.style.right = "-200px";
+}
+
+</script>
+
+
+    
+</body>
+</html>
